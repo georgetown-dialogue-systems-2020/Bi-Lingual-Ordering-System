@@ -1,5 +1,6 @@
 # Bi-Lingual-Dialogue-System
 Project check-in's for Georgetown COSC 483
+For more detailed information, please refer to [this](https://github.com/RexZChen/Bi-Lingual-Dialogue-System).
 
 ## authors: 
 [Zirong Chen](https://github.com/RexZChen); [Haotian Xue](https://github.com/HaotianXue)
