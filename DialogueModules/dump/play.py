@@ -1,6 +1,6 @@
 from utils import initializeRes
 # import DialogueManagement
-from colorModule import bcolors
+from utils import bcolors
 #
 
 # initializeRes("TempRes/")

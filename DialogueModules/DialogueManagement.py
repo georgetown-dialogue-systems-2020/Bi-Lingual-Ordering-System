@@ -5,8 +5,7 @@ DM for Dialogue System
 11/25/2020
 """
 import os
-from utils import randomizeAction
-from colorModule import bcolors
+from utils import randomizeAction, bcolors
 
 
 class DialogueManager(object):
