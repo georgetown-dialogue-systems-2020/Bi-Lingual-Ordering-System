@@ -18,3 +18,7 @@ For more detailed information, please refer to [this](https://github.com/RexZChe
 * 26/11/2020: New features added for DM(v 0.1.2): **New UI**, **“Outliers” handling** finished.
 * 27/11/2020: New features added for DM(v 0.1.3): **Evaluator**, **Intention correction** finished.
 * 28/11/2020: New features added for DM(v 0.1.4): **New UI**, **Evalutor debugging** finished.
+
+## Guidance:
+
+* Preparations: 'Python 3.6.x
