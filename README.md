@@ -21,5 +21,5 @@ For more detailed information, please refer to [this](https://github.com/RexZChe
 
 ## Guidance:
 
-* Preparations: ```shell Python 3.6.x ```, [translators](https://github.com/UlionTse/translators)
-* How to run: ```shell python main.py --num_of_turns 10 --task_reward 20 --turn_penalty -1 --score_factor 2 ```
+* Preparations: ``` Python 3.6.x ```, [translators](https://github.com/UlionTse/translators)
+* How to run: ``` python main.py --num_of_turns 10 --task_reward 20 --turn_penalty -1 --score_factor 2 ```
