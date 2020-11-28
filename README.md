@@ -1,5 +1,6 @@
 # Bi-Lingual-Dialogue-System
 Project check-in's for Georgetown COSC 483
+
 See the menu @ https://www.subway.com/en-US/MenuNutrition/Menu/BreadsAndToppings  
 
 For more detailed information, please refer to [this](https://github.com/RexZChen/Bi-Lingual-Dialogue-System).
