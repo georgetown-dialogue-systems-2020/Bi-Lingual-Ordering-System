@@ -1,12 +1,13 @@
 """
 authors: Zirong Chen; Haotian Xue
-Utils for Dialogue
+Utils for Dialogue, including Discriminator, Translator and User Interfaces
 
 23/11/2020
 """
 import translators as ts
 import random
 import os
+import numpy as np
 
 
 def typeIn():
@@ -40,10 +41,6 @@ class Discriminator(object):
                 return "en"
 
 
-class BertTranslator(object):
-    pass
-
-
 class GoogleTranslator(object):
     def __init__(self, utterance, src, dest):
         self.src = src
@@ -52,6 +49,16 @@ class GoogleTranslator(object):
 
     def getTranslation(self):
         return ts.google(self.utterance, from_language=self.src, to_language=self.dest)
+
+
+class BingTranslator(object):
+    def __init__(self, utterance, src, dest):
+        self.src = src
+        self.dest = dest
+        self.utterance = utterance
+
+    def getTranslation(self):
+        return ts.bing(self.utterance, from_language=self.src, to_language=self.dest)
 
 
 def randomizeAction(file):
@@ -95,3 +102,8 @@ def welcome():
         f"{bcolors.OKBLUE} ### See the menu @ https://www.subway.com/en-US/MenuNutrition/Menu/BreadsAndToppings ###{bcolors.ENDC} \n"
         f"{bcolors.HEADER} ################################# NOW, TIME TO BEGIN! ################################## {bcolors.ENDC} \n"
     )
+
+
+def Sigmoid(X):
+    s = 1 / (1 + np.exp(-X))
+    return s
