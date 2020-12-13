@@ -3,10 +3,22 @@ Project check-in's for Georgetown COSC 483
 
 More details please refer to https://github.com/RexZChen/Bi-Lingual-Dialogue-System.
 
-See the menu @ https://www.subway.com/en-US/MenuNutrition/Menu/BreadsAndToppings  
+See the menu @ https://www.subway.com/en-US/MenuNutrition/Menu/BreadsAndToppings. 
+
 
 ## authors: 
 [Zirong Chen](https://github.com/RexZChen); [Haotian Xue](https://github.com/HaotianXue)
+
+## System Structure:
+* System overall structure:
+![alt text](https://github.com/RexZChen/Bi-Lingual-Dialogue-System/blob/main/images/DS.png)
+* UML class diagram for all the modules:
+![alt text](https://github.com/RexZChen/Bi-Lingual-Dialogue-System/blob/main/images/UMLClass.png)
+* Detailed co-operations between modules within one turn of interaction:
+![alt text](https://github.com/RexZChen/Bi-Lingual-Dialogue-System/blob/main/images/DMStr.png)
+* Refined UML sequence diagram for one turn of interaction:
+![alt text](https://github.com/RexZChen/Bi-Lingual-Dialogue-System/blob/main/images/UMLSeq.png)
+
 
 ## Logs:
 
@@ -24,6 +36,7 @@ See the menu @ https://www.subway.com/en-US/MenuNutrition/Menu/BreadsAndToppings
 
 * Preparations: ``` Python 3.6.x ```, [translators](https://github.com/UlionTse/translators)
 * How to run: ``` python main.py --num_of_turns 10 --task_reward 20 --turn_penalty -1 --score_factor 2 --translator bing ```
+* Report is under /paper directory.
 
 ## Notice:
 
