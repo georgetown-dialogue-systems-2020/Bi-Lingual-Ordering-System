@@ -30,7 +30,7 @@ See the menu @ https://www.subway.com/en-US/MenuNutrition/Menu/BreadsAndToppings
 * 27/11/2020: New features added for system(v 0.1.3): **Evaluator**, **Intention correction** finished.
 * 28/11/2020: New features added for system(v 0.1.4): **New UI**, **Evalutor debugging** finished.
 * 29/11/2020: New features added for system(v 0.1.5): **Evaluator debugging** finished.
-* 7/12/2020: New features added for system(v 0.1.6): **Intention Detection debugging** finished, now the intention detector is able to accept multi-words inputs. **Translator Module modified** several more backends included.
+* 7/12/2020: New features added for system(v 0.1.6): **Intention Detection debugging** finished, now the intention detector is able to catch multi-words inputs. **Translator Module modified** more backends included.
 
 ## Guidance:
 
